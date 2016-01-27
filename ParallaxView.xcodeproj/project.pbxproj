@@ -11,6 +11,8 @@
 		137DF7EB1C591D2D001CBCE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137DF7EA1C591D2D001CBCE0 /* ViewController.swift */; };
 		137DF7EE1C591D2D001CBCE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137DF7EC1C591D2D001CBCE0 /* Main.storyboard */; };
 		137DF7F01C591D2D001CBCE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137DF7EF1C591D2D001CBCE0 /* Assets.xcassets */; };
+		137DF7F81C591D4A001CBCE0 /* ParallaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137DF7F71C591D4A001CBCE0 /* ParallaxView.swift */; };
+		137DF7FA1C5938AC001CBCE0 /* UIView+Parallax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137DF7F91C5938AC001CBCE0 /* UIView+Parallax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		137DF7ED1C591D2D001CBCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		137DF7EF1C591D2D001CBCE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137DF7F11C591D2D001CBCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137DF7F71C591D4A001CBCE0 /* ParallaxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxView.swift; sourceTree = "<group>"; };
+		137DF7F91C5938AC001CBCE0 /* UIView+Parallax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Parallax.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				137DF7E81C591D2D001CBCE0 /* AppDelegate.swift */,
+				137DF7F91C5938AC001CBCE0 /* UIView+Parallax.swift */,
 				137DF7EA1C591D2D001CBCE0 /* ViewController.swift */,
 				137DF7EC1C591D2D001CBCE0 /* Main.storyboard */,
 				137DF7EF1C591D2D001CBCE0 /* Assets.xcassets */,
 				137DF7F11C591D2D001CBCE0 /* Info.plist */,
+				137DF7F71C591D4A001CBCE0 /* ParallaxView.swift */,
 			);
 			path = ParallaxView;
 			sourceTree = "<group>";
@@ -132,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				137DF7EB1C591D2D001CBCE0 /* ViewController.swift in Sources */,
+				137DF7FA1C5938AC001CBCE0 /* UIView+Parallax.swift in Sources */,
+				137DF7F81C591D4A001CBCE0 /* ParallaxView.swift in Sources */,
 				137DF7E91C591D2D001CBCE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

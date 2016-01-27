@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  @IBOutlet weak var parallaxView: ParallaxView!
+  override var preferredFocusedView: UIView? {
+    get {
+      return self.parallaxView
+    }
+  }
 
   override func viewDidLoad() {
     super.viewDidLoad()
